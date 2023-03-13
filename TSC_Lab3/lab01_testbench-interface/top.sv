@@ -3,7 +3,7 @@
  **********************************************************************/
 
 module top;
- // timeunit 1ns/1ns; //directiva de compilator
+ timeunit 1ns/1ns; //directiva de compilator
 
   // user-defined types are defined in instr_register_pkg.sv
   import instr_register_pkg::*;

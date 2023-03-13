@@ -20,6 +20,7 @@ package instr_register_pkg;
 
 /*logic signed- tip de data logic cu semn- signed= bitul 31 bit de semn */
   typedef logic signed [31:0] operand_t;
+  typedef logic signed [63:0] operand_r;
   
   typedef logic [4:0] address_t;
   
@@ -27,6 +28,7 @@ package instr_register_pkg;
     opcode_t  opc;
     operand_t op_a;
     operand_t op_b;
+    operand_r op_res;
   } instruction_t;
 
 endpackage: instr_register_pkg
