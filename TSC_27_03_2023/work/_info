@@ -1,0 +1,158 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Desktop/TSC_lab3
+vinstr_register
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 DXx4 work 18 instr_register_pkg 0 22 II<AU3IQ7jZ9T9UN9Y37U2
+!s110 1679897501
+!i10b 1
+!s100 1G:n0CNkIH_=hNW_ddDO50
+I:^OJ>@KY?I^P;DZJlk::e0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 instr_register_sv_unit
+S1
+Z3 dC:/Users/david/OneDrive/Desktop/TSC_tema
+w1679897466
+8C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register.sv
+FC:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register.sv
+L0 11
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1679897501.000000
+!s107 C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register.sv|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+Yinstr_register_ifc
+R0
+DXx4 work 18 instr_register_pkg 0 22 Nj2BmoG=m<F6n1M=baG5T1
+!s110 1679896129
+!i10b 1
+!s100 E6;SBXh6_22_aUPF:YKf:0
+IV40l<<[O>A:[l^kV><bo>1
+R2
+!s105 instr_register_ifc_sv_unit
+S1
+R3
+w1679847602
+8C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register_ifc.sv
+FC:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register_ifc.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1679896129.000000
+!s107 C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register_ifc.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register_ifc.sv|
+!i113 1
+R5
+R6
+Xinstr_register_pkg
+R0
+!s110 1679897487
+!i10b 1
+!s100 _`LQ@;GTdE]9]BeEG1_>?3
+III<AU3IQ7jZ9T9UN9Y37U2
+VII<AU3IQ7jZ9T9UN9Y37U2
+S1
+R3
+w1679897037
+8C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register_pkg.sv
+FC:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register_pkg.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1679897487.000000
+!s107 C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register_pkg.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/david/OneDrive/Desktop/TSC_tema/lab_dut/instr_register_pkg.sv|
+!i113 1
+R5
+R6
+vinstr_register_test
+R0
+R1
+!s110 1679897495
+!i10b 1
+!s100 i?2mF8o_<eGn<;IiW=hHl1
+IbEANc`cna0UkOK1Ze>O7J3
+R2
+!s105 instr_register_test_sv_unit
+S1
+R3
+w1679897463
+8C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/instr_register_test.sv
+FC:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/instr_register_test.sv
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1679897495.000000
+!s107 C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/instr_register_test.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/instr_register_test.sv|
+!i113 1
+R5
+R6
+Ytb_ifc
+R0
+R1
+!s110 1679897494
+!i10b 1
+!s100 `zSLLdG[gOR95P[ZW>aRL3
+IZ4URQ;6d4_:oGSYWfk_K;2
+R2
+!s105 tb_ifc_sv_unit
+S1
+R3
+w1679897410
+8C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/tb_ifc.sv
+FC:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/tb_ifc.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1679897494.000000
+!s107 C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/tb_ifc.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/tb_ifc.sv|
+!i113 1
+R5
+R6
+vtop
+R0
+R1
+!s110 1679897509
+!i10b 1
+!s100 M^[z5]dYaIzClJhg;d9M01
+IE=2U>=L0VPm6WOj6UQ9kk2
+R2
+!s105 top_sv_unit
+S1
+R3
+w1679897230
+8C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/top.sv
+FC:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/top.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1679897509.000000
+!s107 C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/top.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/david/OneDrive/Desktop/TSC_tema/lab01_testbench-interface/top.sv|
+!i113 1
+R5
+R6
