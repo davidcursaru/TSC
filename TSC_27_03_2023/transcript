@@ -1,0 +1,7 @@
+# vsim run test.vbat 
+# Start time: 20:17:04 on Apr 05,2023
+# ** Error (suppressible): (vsim-19) Failed to access library 'test' at "test".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 20:17:05 on Apr 05,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

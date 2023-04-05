@@ -1,0 +1,138 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/david/OneDrive/Desktop/TSC_27_03_2023/sim
+vinstr_register
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 18 instr_register_pkg 0 22 ;jb4VIfRQnKmV>ZLI_<fo3
+Z3 !s110 1680715751
+!i10b 1
+!s100 BjFiW@gR:GH?9hOYD>W>20
+Ikgi_G]?RQBmGd;LAX4VTO3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 instr_register_sv_unit
+S1
+R0
+w1679897466
+8../lab_dut/instr_register.sv
+F../lab_dut/instr_register.sv
+L0 11
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1680715751.000000
+Z7 !s107 ../lab01_testbench-interface/top.sv|../lab01_testbench-interface/instr_register_test.sv|../lab01_testbench-interface/tb_ifc.sv|../lab_dut/instr_register.sv|../lab_dut/instr_register_pkg.sv|
+Z8 !s90 -reportprogress|300|-sv|-timescale|1ps/1ps|-work|work|-f|sources.txt|
+!i113 1
+Z9 o-sv -timescale 1ps/1ps -work work +incdir../lab01_testbench +incdir../lab01_testbench +incdir../lab01_testbench
+Z10 !s92 -sv -timescale 1ps/1ps -work work +incdir+../../lab_dut +incdir+../../lab_dut +incdir../lab01_testbench +incdir../lab01_testbench +incdir../lab01_testbench
+Z11 tCvgOpt 0
+Xinstr_register_pkg
+R1
+R3
+!i10b 1
+!s100 6?d4KJ5V32:S^_8knXQJ50
+I;jb4VIfRQnKmV>ZLI_<fo3
+V;jb4VIfRQnKmV>ZLI_<fo3
+S1
+R0
+w1679897037
+8../lab_dut/instr_register_pkg.sv
+F../lab_dut/instr_register_pkg.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+R11
+vinstr_register_test
+R1
+R2
+R3
+!i10b 1
+!s100 =Yh:UGS:bba?0]I`a;EEZ1
+Imd3ABVKe8Olh?5`l3zE:e1
+R4
+!s105 instr_register_test_sv_unit
+S1
+R0
+w1679897463
+8../lab01_testbench-interface/instr_register_test.sv
+F../lab01_testbench-interface/instr_register_test.sv
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+R11
+Ytb_ifc
+R1
+R2
+R3
+!i10b 1
+!s100 ^6>:<>EBg]m7eJM<=UGgW3
+I[Rh;_f@PJ[E?[UWR>LQXo2
+R4
+!s105 tb_ifc_sv_unit
+S1
+R0
+w1679897410
+8../lab01_testbench-interface/tb_ifc.sv
+F../lab01_testbench-interface/tb_ifc.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+R11
+vtop
+R1
+R2
+R3
+!i10b 1
+!s100 S<MaOF9Ahh=8=7d1UPA6B3
+I7kaUKL5aM34zY^@BRSX0h2
+R4
+!s105 top_sv_unit
+S1
+R0
+w1679897230
+8../lab01_testbench-interface/top.sv
+F../lab01_testbench-interface/top.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+R11

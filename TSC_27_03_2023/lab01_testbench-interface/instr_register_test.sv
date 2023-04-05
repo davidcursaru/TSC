@@ -94,4 +94,8 @@ module instr_register_test (tb_ifc.test interf);
     $display("  operand_b = %0d\n", interf.instruction_word.op_b);
   endfunction: print_results
 
+  function void check_results
+
+  endfunction: check_results
+
 endmodule: instr_register_test
