@@ -12,11 +12,13 @@ module instr_register_test (tb_ifc.interf_test instrRegIf);
 
  parameter NUMBER_OF_TRANSACTION = 11;
  parameter RANDOM_CASE = 1;
+ parameter TEST_NAME =" TEST ";
   int seed = 555;
   int seed_r = 555;
   int seed_w = 555;
   int errors = 0;
-  rezultat_t exp_result;
+
+  rezultat_t exp_result ;
   initial begin
     $display("\n\n***********************************************************");
     $display(    "***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***");
@@ -59,16 +61,14 @@ module instr_register_test (tb_ifc.interf_test instrRegIf);
 
      // @(posedge instrRegIf.test_clk) Random;
 
-      @(negedge instrRegIf.test_clk) check_results;
-      
-      $display("\nExpected results = %0d  and Actual Result = %0d ; The operation is (%s)",exp_result,instrRegIf.instruction_word.op_r,instrRegIf.instruction_word.opc);
+      @(negedge instrRegIf.test_clk) print_results;
     end
 
     @(posedge instrRegIf.test_clk) ;
     if(errors > 0 )
-        $display(  "Test failed\n");
+        $display(  "Test faild %s\n", TEST_NAME );
     else
-        $display(  "Test passed\n");
+        $display(  "Test passed %s \n", TEST_NAME);
 
     $display("\n***********************************************************");
     $display(  "***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***");
@@ -140,6 +140,7 @@ endfunction:Random */
   endfunction: print_results
 
 function void check_results();
+ // foreach (actual) begin
      case(instrRegIf.instruction_word.opc) 
 	  	  ZERO  : exp_result = 'b0;
         PASSA : exp_result = instrRegIf.instruction_word.op_a;
@@ -149,6 +150,7 @@ function void check_results();
         MULT  : exp_result = instrRegIf.instruction_word.op_a*instrRegIf.instruction_word.op_b;
         DIV   : exp_result = instrRegIf.instruction_word.op_a/instrRegIf.instruction_word.op_b;
         MOD   : exp_result = instrRegIf.instruction_word.op_a%instrRegIf.instruction_word.op_b;
+        
 	  endcase
     if(exp_result != instrRegIf.instruction_word.op_r) begin
       errors++;

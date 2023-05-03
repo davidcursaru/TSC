@@ -21,11 +21,11 @@ if {$compile_on || [batch_mode] == 0} {
 }
 
 # Load project
-echo $1 $2 
+echo $1 $2
 
-  eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sva -G/top/test/NUMBER_OF_TRANSACTION=$1 -G/top/test/RANDOM_CASE=$2 top
+  eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sva -G/top/test/TEST_NAME=$3 -G/top/test/NUMBER_OF_TRANSACTION=$1 -G/top/test/RANDOM_CASE=$2  top
 # eval vsim -novopt -quiet -coverage +code=bcesft +notimingchecks +nowarnTSCALE -sva  top
-
+#
 # Run log/wave commands
 # Batch_mode = 0 [GUI_mode]; Batch_mode = 1 [regress_mode]
 if {[batch_mode] == 0} {

@@ -23,6 +23,7 @@ import instr_register_pkg::*;
     end
     else if (instrRegIf.load_en) begin
       case(instrRegIf.opcode)
+      ZERO:  rez ='b0;
       PASSA: rez =instrRegIf.operand_a;
       PASSB: rez =instrRegIf.operand_b;
       ADD:   rez =instrRegIf.operand_a+instrRegIf.operand_b;
